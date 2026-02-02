@@ -12,6 +12,8 @@ public class VideoCatalog
         foreach (Video item in _videos)
         {
             item.VideoDisplay();
+            Console.WriteLine($"Total Comments {item.CommentCount()}");
+             Console.WriteLine("");
         }
     }
 

@@ -28,6 +28,7 @@ class Program
         comment3._name = "Queen Elizabeth";
         comment3._commentText = "Evolution? ";
         video1.AddComment(comment3);
+       
         
 
         // Second Video Instance
@@ -52,6 +53,7 @@ class Program
         comment7._commentText = "Philosopy";
         video2.AddComment(comment7);
         
+        
        // Third Video Instance
        Video video3 = new Video();
         video3._author = "Nikola Tesla";
@@ -73,6 +75,7 @@ class Program
         comment11._name = "Lighthouse of alexandria";
         comment11._commentText = "Jack sparrow";
         video3.AddComment(comment11);
+       
             
         VideoCatalog Catalog = new VideoCatalog();
         Catalog.AddVideo(video1);

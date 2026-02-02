@@ -35,7 +35,7 @@ public class Video
         Console.WriteLine($"Length in Seconds -> {_videoLengthInSec}");
         Console.WriteLine("Comments.....");
         Display();
-        Console.WriteLine("");
+        
 
     }
 
